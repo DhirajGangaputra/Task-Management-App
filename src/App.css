@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  min-height: 100vh;
+  font-family: Roboto;
+  display: flex;
+}
+.input-task-container {
+  padding: 20px;
+  background-color: #1a171d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #f3aa4e;
+  font-weight: 500;
+  font-size: 40px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.label {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.input-box {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 250px;
+}
+.add-task-btn {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  background-color: #f3aa4e;
+  color: #ffffff;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+}
+.output-container {
+  background-color: #131213;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.tags-btn-label {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.tag-btn {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: #ffffff;
+  font-weight: 400;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  background: transparent;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.added-task {
+  list-style-type: none;
+  background-color: #1a171d;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.what-task-is {
+  color: #ffffff;
+  font-weight: 400;
+}
